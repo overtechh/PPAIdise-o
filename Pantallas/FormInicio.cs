@@ -1,14 +1,4 @@
-﻿using CierreOrdenApp;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
+﻿using CierreOrdenApp.Pantallas;
 using System;
 using System.Windows.Forms;
 
@@ -25,7 +15,8 @@ namespace CierreOrdenApp
         {
             Form1 form1 = new Form1();
             form1.Show();
-            this.Hide(); // o this.Close(); si no querés volver
+            this.Hide(); // Oculta esta pantalla mientras la otra está abierta
         }
     }
 }
+
