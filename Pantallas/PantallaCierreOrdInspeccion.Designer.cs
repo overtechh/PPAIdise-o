@@ -39,7 +39,7 @@
             dgvMotivos = new DataGridView();
             Motivo = new DataGridViewTextBoxColumn();
             Comentario = new DataGridViewTextBoxColumn();
-            buttonCerrarOrden = new Button();
+            buttoncerrarOI = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvMotivos).BeginInit();
             SuspendLayout();
             // 
@@ -145,22 +145,22 @@
             Comentario.ReadOnly = true;
             Comentario.Width = 400;
             // 
-            // buttonCerrarOrden
+            // buttoncerrarOI
             // 
-            buttonCerrarOrden.Location = new Point(499, 469);
-            buttonCerrarOrden.Name = "buttonCerrarOrden";
-            buttonCerrarOrden.Size = new Size(108, 23);
-            buttonCerrarOrden.TabIndex = 9;
-            buttonCerrarOrden.Text = "Cerrar Orden";
-            buttonCerrarOrden.UseVisualStyleBackColor = true;
-            buttonCerrarOrden.Click += buttonCerrarOrden_Click;
+            buttoncerrarOI.Location = new Point(499, 469);
+            buttoncerrarOI.Name = "buttoncerrarOI";
+            buttoncerrarOI.Size = new Size(108, 23);
+            buttoncerrarOI.TabIndex = 9;
+            buttoncerrarOI.Text = "Cerrar Orden";
+            buttoncerrarOI.UseVisualStyleBackColor = true;
+            buttoncerrarOI.Click += buttonCerrarOrden_Click;
             // 
             // PantallaCierreOrdInspeccion
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(659, 498);
-            Controls.Add(buttonCerrarOrden);
+            Controls.Add(buttoncerrarOI);
             Controls.Add(dgvMotivos);
             Controls.Add(button1);
             Controls.Add(txtComentarioCierre);
@@ -191,6 +191,6 @@
         private DataGridView dgvMotivos;
         private DataGridViewTextBoxColumn Motivo;
         private DataGridViewTextBoxColumn Comentario;
-        private Button buttonCerrarOrden;
+        private Button buttoncerrarOI;
     }
 }

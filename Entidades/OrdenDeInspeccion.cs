@@ -18,18 +18,51 @@ namespace PPAI_DSI_sismo.Entidades
         public EstacionSismologica EstacionSismologica { get; set; }
 
         // para mostrar en el comboBox
-        public string DescripcionCompleta =>
-        $"Numero Orden {numeroOrden} - Finalización {fechaHoraFinalizacion.ToShortDateString()} - Estación {EstacionSismologica?.nombre} - Sismógrafo {EstacionSismologica?.Sismografo?.nroSerie}";
+        public string DescripcionCompleta
+        {
+            get
+            {
+                return $"Orden {numeroOrden} - Finaliza {fechaHoraFinalizacion.ToShortDateString()} - Estación {EstacionSismologica?.nombre} - Sismógrafo {EstacionSismologica?.Sismografo?.nroSerie}";
+            }
+        }
 
+
+
+        public string obtenerInfoOI()
+        {
+            string nombreEstacion = EstacionSismologica?.getNombre() ?? "Sin nombre";
+            int nroSismografo = EstacionSismologica?.getSismografo()?.getIdentificadorSismografo() ?? -1;
+
+            return $"Estación: {nombreEstacion} - Sismógrafo: {nroSismografo}";
+        }
 
         public List<MotivoFueraServicio> MotivosCierre { get; set; } = new List<MotivoFueraServicio>();
 
-        public void CerrarOrden(string observaciones, List<MotivoFueraServicio> motivos)
+
+        public Empleado Responsable { get; set; }
+
+        public bool esDeEmpleado(Empleado empleado)
         {
-            this.observaciones = observaciones;
-            this.MotivosCierre = motivos;
-            this.fechaHoraCierre = DateTime.Now;
+            return Responsable != null && Responsable.Equals(empleado);
         }
-       
+
+        
+        public bool esRealizada()
+        {
+            return true; 
+        }
+        public void cerrarOI(string observacion, List<MotivoFueraServicio> motivos, Estado estadoCerrado, DateTime fecha)
+        {
+            this.observaciones = observacion;
+            this.MotivosCierre = motivos;
+            this.fechaHoraCierre = fecha;
+            this.estadoActual = estadoCerrado;
+        }
+
+
+        public Estado estadoActual { get; set; }
+
+
+
     }
 }

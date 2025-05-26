@@ -19,25 +19,28 @@ namespace PPAI_DSI_sismo.Pantallas
             InitializeComponent();
         }
 
-        private DataTable dtMotivos;
 
         private void PantallaCierreOrdInspeccion_Load(object sender, EventArgs e)
         {
+            
+
             var gestor = new GestorCierreOrdInspeccion();
+            gestor.iniciarCU();
+
 
 
             cmbOrdenes.DisplayMember = "DescripcionCompleta";
             cmbOrdenes.ValueMember = "numeroOrden";
-            cmbOrdenes.DataSource = gestor.ObtenerOrdenesDisponibles();
+
+            cmbOrdenes.DataSource = gestor.ordenarPorFechaFinalizacion();
 
 
 
-            // Asignar la lista al ComboBox
+
             cmbMotivos.DisplayMember = "Descripcion";
-            cmbMotivos.DataSource = gestor.obtenerMotivos();
+            cmbMotivos.DataSource = gestor.obtenerMotivosFueraDeServicio();
 
 
-            // tabla donde se guardan los motivos
             dtMotivos = new DataTable();
             dtMotivos.Columns.Add("Motivo", typeof(string));
             dtMotivos.Columns.Add("Comentario", typeof(string));
@@ -59,13 +62,10 @@ namespace PPAI_DSI_sismo.Pantallas
                 return;
             }
 
-            // Obtener el motivo seleccionado
             var motivoSeleccionado = (MotivoTipo)cmbMotivos.SelectedItem;
 
-            // Agregar fila al DataTable
             dtMotivos.Rows.Add(motivoSeleccionado.descripcion, txtComentarioCierre.Text.Trim());
 
-            // Limpiar controles para siguiente ingreso
             cmbMotivos.SelectedIndex = -1;
             txtComentarioCierre.Clear();
             cmbMotivos.Focus();
@@ -75,6 +75,8 @@ namespace PPAI_DSI_sismo.Pantallas
         {
             opCerrarOrdInspeccion();
         }
+        private DataTable dtMotivos { get; set; } = new DataTable();
+
 
         private void opCerrarOrdInspeccion()
         {
@@ -110,8 +112,21 @@ namespace PPAI_DSI_sismo.Pantallas
                     MessageBox.Show("Debe ingresar al menos un motivo");
                     return;
                 }
+                string observacion = txtObservacion.Text.Trim();
+                DateTime fecha = DateTime.Now;
 
-                ordenSeleccionada.CerrarOrden(txtObservacion.Text.Trim(), listaMotivos);
+                GestorCierreOrdInspeccion gestor = new GestorCierreOrdInspeccion();
+
+                List<Estado> estadosSistema = new List<Estado>
+{
+    new Estado { ambito = "OrdenInspeccion", nombreEstado = "Cerrada" },
+    new Estado { ambito = "OrdenInspeccion", nombreEstado = "En Proceso" }
+};
+
+                Estado estadoCerrado = gestor.buscarEstadoCerrado(estadosSistema);
+
+
+                ordenSeleccionada.cerrarOI(observacion, listaMotivos, estadoCerrado, fecha);
 
 
 

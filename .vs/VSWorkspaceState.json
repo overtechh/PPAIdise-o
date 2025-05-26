@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Entidades",
+    "\\Gestores",
     "\\Pantallas"
   ],
-  "SelectedNode": "\\Pantallas\\FormInicio.cs",
   "PreviewInSolutionExplorer": false
 }

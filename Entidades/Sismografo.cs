@@ -8,9 +8,13 @@ namespace PPAI_DSI_sismo.Entidades
 {
     public class Sismografo
     {
-        public DateTime fechaAdquisicion {  get; set; }
+        public DateTime fechaAdquisicion { get; set; }
         public int identificadorSismografo { get; set; }
-        public int nroSerie {  get; set; }
+        public int nroSerie { get; set; }
 
+        public int getIdentificadorSismografo()
+        {
+            return nroSerie;
+        }
     }
 }

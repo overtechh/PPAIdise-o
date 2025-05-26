@@ -7,14 +7,11 @@ namespace PPAI_DSI_sismo
         public FormInicio()
         {
             InitializeComponent();
-
         }
-
-       
 
         public void habilitarPantalla()
         {
-            PantallaCierreOrdInspeccion nuevoForm = new PantallaCierreOrdInspeccion();
+            PantallaSeleccionOrdenInspeccion nuevoForm = new PantallaSeleccionOrdenInspeccion();
             nuevoForm.ShowDialog();
         }
 
@@ -24,3 +21,4 @@ namespace PPAI_DSI_sismo
         }
     }
 }
+

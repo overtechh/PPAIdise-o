@@ -8,7 +8,9 @@ namespace PPAI_DSI_sismo.Entidades
 {
     public class MotivoFueraServicio
     {
-        public MotivoTipo TipoMotivo { get; set; }
-        public string comentario {  get; set; }
+      
+        public MotivoTipo TipoMotivo { get; set; } = new MotivoTipo();
+        public string comentario { get; set; } = string.Empty;
+
     }
 }

@@ -6,11 +6,20 @@ using System.Threading.Tasks;
 
 namespace PPAI_DSI_sismo.Entidades
 {
-    internal class Estado
+    public class Estado
     {
-        public string ambito {  get; set; }
-        public string descripcion { get; set; }
-        public string nombreEstado {  get; set; }
+        public string ambito { get; set; }   
+        public string nombreEstado { get; set; }
 
+        public bool esAmbitoOI()
+        {
+            return ambito == "OrdenInspeccion";
+        }
+
+        public bool esCerrada()
+        {
+            return nombreEstado == "Cerrada";
+        }
     }
+
 }

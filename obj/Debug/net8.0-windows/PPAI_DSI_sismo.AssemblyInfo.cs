@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PPAI_DSI_sismo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eba256580e448328cd4c85a8b2f05259e327b472")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42c0a8aa99091e83e72e6b3b8fb424ff75e7b330")]
 [assembly: System.Reflection.AssemblyProductAttribute("PPAI_DSI_sismo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PPAI_DSI_sismo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

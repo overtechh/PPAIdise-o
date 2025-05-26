@@ -8,14 +8,14 @@ namespace PPAI_DSI_sismo.Entidades
 {
     public class Usuario
     {
-        public string contraseña {  get; set; }
-        public string nombreUsuario { get; set; }
+        public string contraseña { get; set; } = string.Empty;
+        public string nombreUsuario { get; set; } = string.Empty;
 
-        public Empleado empleado { get; set; }
+        public Empleado Empleado { get; set; } = new Empleado();
 
         public Empleado getEmpleado()
         {
-            return empleado;
+            return Empleado;
         }
     }
 }

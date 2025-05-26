@@ -8,9 +8,10 @@ namespace PPAI_DSI_sismo.Entidades
 {
     internal class CambioDeEstado
     {
-        public DateTime fechaHoraFin {  get; set; }
+        public DateTime fechaHoraFin { get; set; }
         public DateTime fechaHoraInicio { get; set; }
-        public string motivoFueraDeServicio { get; set; }
-
+        public string motivoFueraDeServicio { get; set; } = string.Empty;
+        public MotivoTipo motivoFueraDeServicioObj { get; set; } = new MotivoTipo(); 
     }
+
 }

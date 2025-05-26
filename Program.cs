@@ -1,3 +1,5 @@
+using PPAI_DSI_sismo.Pantallas;
+
 namespace PPAI_DSI_sismo
 {
     internal static class Program

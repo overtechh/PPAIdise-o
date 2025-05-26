@@ -10,5 +10,20 @@ namespace PPAI_DSI_sismo.Entidades
     {
         public string descripcion { get; set; }
 
+        public string getDescripcion()
+        {
+            return descripcion;
+        }
+
+        public static List<MotivoTipo> obtenerTodos()
+        {
+            return new List<MotivoTipo>
+            {
+                new MotivoTipo { descripcion = "Falla técnica" },
+                new MotivoTipo { descripcion = "Mantenimiento" },
+                new MotivoTipo { descripcion = "Sin energía" }
+            };
+        }
     }
 }
+
