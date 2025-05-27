@@ -1,5 +1,6 @@
-﻿using PPAI_DSI_sismo.Gestores;
-using PPAI_DSI_sismo.Entidades;
+﻿using PPAI_DSI_sismo.Entidades;
+using PPAI_DSI_sismo.Gestores;
+using PPAI_DSI_sismo.Servicios;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -147,6 +148,12 @@ namespace PPAI_DSI_sismo.Pantallas
                 this.Close();
             }
         }
-           
+        private void btnVerMails_Click(object sender, EventArgs e)
+        {
+            string todosLosMails = string.Join("\n\n", InterfazMail.mailsEnviados);
+            MessageBox.Show(todosLosMails, "Mails enviados");
+        }
+
+
     }
 }

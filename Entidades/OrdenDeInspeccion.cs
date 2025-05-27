@@ -9,6 +9,8 @@ namespace PPAI_DSI_sismo.Entidades
 {
     public class OrdenDeInspeccion
     {
+        public Sismografo sismografo => EstacionSismologica?.Sismografo;
+
         public DateTime fechaHoraCierre { get; set; }
         public DateTime fechaHoraFinalizacion { get; set; }
         public DateTime fechaHoraInicio { get; set; }

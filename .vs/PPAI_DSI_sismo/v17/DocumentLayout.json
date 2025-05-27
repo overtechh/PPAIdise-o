@@ -3,68 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\MotivoTipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entidades\\MotivoTipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\pantallas\\pantallaingresoobservacionymotivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:pantallas\\pantallaingresoobservacionymotivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\OrdenDeInspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entidades\\OrdenDeInspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\pantallas\\pantallaingresoobservacionymotivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:pantallas\\pantallaingresoobservacionymotivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\EstacionSismologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entidades\\EstacionSismologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\pantallas\\pantallacierreordinspeccion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:pantallas\\pantallacierreordinspeccion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Sismografo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entidades\\Sismografo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\pantallas\\pantallaingresoobservacionymotivos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:pantallas\\pantallaingresoobservacionymotivos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Gestores\\GestorCierreOrdInspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gestores\\GestorCierreOrdInspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\pantallas\\pantallacierreordinspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:pantallas\\pantallacierreordinspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaCierreOrdInspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pantallas\\PantallaCierreOrdInspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\pantallas\\pantallacierreordinspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:pantallas\\pantallacierreordinspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\CambioDeEstado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entidades\\CambioDeEstado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\pantallas\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:pantallas\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\MotivoFueraServicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entidades\\MotivoFueraServicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\pantallas\\pantallaseleccionordeninspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:pantallas\\pantallaseleccionordeninspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entidades\\Estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\entidades\\ordendeinspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:entidades\\ordendeinspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entidades\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\entidades\\sismografo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:entidades\\sismografo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entidades\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\gestores\\gestorcierreordinspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:gestores\\gestorcierreordinspeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\FormInicio.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pantallas\\FormInicio.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\entidades\\interfazmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:entidades\\interfazmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\FormInicio.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pantallas\\FormInicio.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\entidades\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:entidades\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\FormInicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pantallas\\FormInicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\entidades\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:entidades\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entidades\\Sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\pantallas\\forminicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:pantallas\\forminicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\PPAI_DSI_sismo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PPAI_DSI_sismo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\entidades\\cambiodeestado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:entidades\\cambiodeestado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\entidades\\motivofueraservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:entidades\\motivofueraservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\entidades\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:entidades\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\entidades\\motivotipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:entidades\\motivotipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\entidades\\estacionsismologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:entidades\\estacionsismologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\pantallas\\forminicio.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:pantallas\\forminicio.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\pantallas\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:pantallas\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\entidades\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:entidades\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|c:\\users\\agusr\\desktop\\636\\ppai\\ppaieuge\\ppai_dsi\\ppai_dsi_sismo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AA95BB8C-07F1-4514-B1D5-DEB5D2156932}|PPAI_DSI_sismo.csproj|solutionrelative:ppai_dsi_sismo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,162 +114,185 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GestorCierreOrdInspeccion.cs",
-              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Gestores\\GestorCierreOrdInspeccion.cs",
-              "RelativeDocumentMoniker": "Gestores\\GestorCierreOrdInspeccion.cs",
-              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Gestores\\GestorCierreOrdInspeccion.cs",
-              "RelativeToolTip": "Gestores\\GestorCierreOrdInspeccion.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAArwGMAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PantallaIngresoObservacionYMotivos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaIngresoObservacionYMotivos.cs",
+              "RelativeDocumentMoniker": "Pantallas\\PantallaIngresoObservacionYMotivos.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaIngresoObservacionYMotivos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\PantallaIngresoObservacionYMotivos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:27:42.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T15:58:13.299Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MotivoTipo.cs",
-              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\MotivoTipo.cs",
-              "RelativeDocumentMoniker": "Entidades\\MotivoTipo.cs",
-              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\MotivoTipo.cs",
-              "RelativeToolTip": "Entidades\\MotivoTipo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Title": "PantallaIngresoObservacionYMotivos.cs",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaIngresoObservacionYMotivos.cs",
+              "RelativeDocumentMoniker": "Pantallas\\PantallaIngresoObservacionYMotivos.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaIngresoObservacionYMotivos.cs",
+              "RelativeToolTip": "Pantallas\\PantallaIngresoObservacionYMotivos.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwBMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:27:22.631Z",
+              "WhenOpened": "2025-05-27T15:10:06.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "PantallaCierreOrdInspeccion.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaCierreOrdInspeccion.Designer.cs",
+              "RelativeDocumentMoniker": "Pantallas\\PantallaCierreOrdInspeccion.Designer.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaCierreOrdInspeccion.Designer.cs",
+              "RelativeToolTip": "Pantallas\\PantallaCierreOrdInspeccion.Designer.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAAALUAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:07:41.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PantallaIngresoObservacionYMotivos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaIngresoObservacionYMotivos.Designer.cs",
+              "RelativeDocumentMoniker": "Pantallas\\PantallaIngresoObservacionYMotivos.Designer.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaIngresoObservacionYMotivos.Designer.cs",
+              "RelativeToolTip": "Pantallas\\PantallaIngresoObservacionYMotivos.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:04:18.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PantallaCierreOrdInspeccion.cs",
               "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaCierreOrdInspeccion.cs",
               "RelativeDocumentMoniker": "Pantallas\\PantallaCierreOrdInspeccion.cs",
               "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaCierreOrdInspeccion.cs",
               "RelativeToolTip": "Pantallas\\PantallaCierreOrdInspeccion.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAArwBsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAgwJ8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T14:29:18.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "PantallaCierreOrdInspeccion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaCierreOrdInspeccion.cs",
+              "RelativeDocumentMoniker": "Pantallas\\PantallaCierreOrdInspeccion.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaCierreOrdInspeccion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\PantallaCierreOrdInspeccion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:10:08.359Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\FormInicio.cs",
+              "RelativeDocumentMoniker": "Pantallas\\FormInicio.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\FormInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\FormInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T17:44:03.947Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PantallaSeleccionOrdenInspeccion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaSeleccionOrdenInspeccion.cs",
+              "RelativeDocumentMoniker": "Pantallas\\PantallaSeleccionOrdenInspeccion.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\PantallaSeleccionOrdenInspeccion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas\\PantallaSeleccionOrdenInspeccion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T17:44:00.273Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "OrdenDeInspeccion.cs",
               "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\OrdenDeInspeccion.cs",
               "RelativeDocumentMoniker": "Entidades\\OrdenDeInspeccion.cs",
               "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\OrdenDeInspeccion.cs",
               "RelativeToolTip": "Entidades\\OrdenDeInspeccion.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T14:27:23.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Sismografo.cs",
               "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Sismografo.cs",
               "RelativeDocumentMoniker": "Entidades\\Sismografo.cs",
               "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Sismografo.cs",
               "RelativeToolTip": "Entidades\\Sismografo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T14:27:35.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EstacionSismologica.cs",
-              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\EstacionSismologica.cs",
-              "RelativeDocumentMoniker": "Entidades\\EstacionSismologica.cs",
-              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\EstacionSismologica.cs",
-              "RelativeToolTip": "Entidades\\EstacionSismologica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "InterfazMail.cs",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\InterfazMail.cs",
+              "RelativeDocumentMoniker": "Entidades\\InterfazMail.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\InterfazMail.cs",
+              "RelativeToolTip": "Entidades\\InterfazMail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:56:14.179Z",
+              "WhenOpened": "2025-05-27T15:42:15.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MotivoFueraServicio.cs",
-              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\MotivoFueraServicio.cs",
-              "RelativeDocumentMoniker": "Entidades\\MotivoFueraServicio.cs",
-              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\MotivoFueraServicio.cs",
-              "RelativeToolTip": "Entidades\\MotivoFueraServicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "GestorCierreOrdInspeccion.cs",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Gestores\\GestorCierreOrdInspeccion.cs",
+              "RelativeDocumentMoniker": "Gestores\\GestorCierreOrdInspeccion.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Gestores\\GestorCierreOrdInspeccion.cs",
+              "RelativeToolTip": "Gestores\\GestorCierreOrdInspeccion.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAowKoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:27:21.383Z",
+              "WhenOpened": "2025-05-26T14:27:42.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CambioDeEstado.cs",
-              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\CambioDeEstado.cs",
-              "RelativeDocumentMoniker": "Entidades\\CambioDeEstado.cs",
-              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\CambioDeEstado.cs",
-              "RelativeToolTip": "Entidades\\CambioDeEstado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Rol.cs",
+              "RelativeDocumentMoniker": "Entidades\\Rol.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Rol.cs",
+              "RelativeToolTip": "Entidades\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:27:13.423Z",
+              "WhenOpened": "2025-05-27T15:40:18.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Estado.cs",
-              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Estado.cs",
-              "RelativeDocumentMoniker": "Entidades\\Estado.cs",
-              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Estado.cs",
-              "RelativeToolTip": "Entidades\\Estado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:27:19.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Empleado.cs",
               "RelativeDocumentMoniker": "Entidades\\Empleado.cs",
               "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Empleado.cs",
               "RelativeToolTip": "Entidades\\Empleado.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T14:27:15.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Usuario.cs",
-              "RelativeDocumentMoniker": "Entidades\\Usuario.cs",
-              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Usuario.cs",
-              "RelativeToolTip": "Entidades\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:27:38.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FormInicio.resx",
-              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\FormInicio.resx",
-              "RelativeDocumentMoniker": "Pantallas\\FormInicio.resx",
-              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\FormInicio.resx",
-              "RelativeToolTip": "Pantallas\\FormInicio.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-05-26T15:25:56.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "FormInicio.Designer.cs",
               "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\FormInicio.Designer.cs",
               "RelativeDocumentMoniker": "Pantallas\\FormInicio.Designer.cs",
@@ -246,7 +305,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "Entidades\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:27:38.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CambioDeEstado.cs",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\CambioDeEstado.cs",
+              "RelativeDocumentMoniker": "Entidades\\CambioDeEstado.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\CambioDeEstado.cs",
+              "RelativeToolTip": "Entidades\\CambioDeEstado.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCAAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:27:13.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MotivoFueraServicio.cs",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\MotivoFueraServicio.cs",
+              "RelativeDocumentMoniker": "Entidades\\MotivoFueraServicio.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\MotivoFueraServicio.cs",
+              "RelativeToolTip": "Entidades\\MotivoFueraServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:27:21.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Estado.cs",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Estado.cs",
+              "RelativeDocumentMoniker": "Entidades\\Estado.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Estado.cs",
+              "RelativeToolTip": "Entidades\\Estado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:27:19.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MotivoTipo.cs",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\MotivoTipo.cs",
+              "RelativeDocumentMoniker": "Entidades\\MotivoTipo.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\MotivoTipo.cs",
+              "RelativeToolTip": "Entidades\\MotivoTipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:27:22.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EstacionSismologica.cs",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\EstacionSismologica.cs",
+              "RelativeDocumentMoniker": "Entidades\\EstacionSismologica.cs",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\EstacionSismologica.cs",
+              "RelativeToolTip": "Entidades\\EstacionSismologica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:56:14.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FormInicio.resx",
+              "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\FormInicio.resx",
+              "RelativeDocumentMoniker": "Pantallas\\FormInicio.resx",
+              "ToolTip": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\FormInicio.resx",
+              "RelativeToolTip": "Pantallas\\FormInicio.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-26T15:25:56.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "FormInicio.cs",
               "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Pantallas\\FormInicio.cs",
               "RelativeDocumentMoniker": "Pantallas\\FormInicio.cs",
@@ -259,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "Sesion.cs",
               "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\Entidades\\Sesion.cs",
               "RelativeDocumentMoniker": "Entidades\\Sesion.cs",
@@ -267,12 +415,11 @@
               "RelativeToolTip": "Entidades\\Sesion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:31:28.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T14:31:28.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "PPAI_DSI_sismo.csproj",
               "DocumentMoniker": "C:\\Users\\agusr\\Desktop\\636\\ppai\\ppaiEuge\\PPAI_DSI\\PPAI_DSI_sismo.csproj",
               "RelativeDocumentMoniker": "PPAI_DSI_sismo.csproj",
@@ -280,8 +427,7 @@
               "RelativeToolTip": "PPAI_DSI_sismo.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-26T14:25:52.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T14:25:52.849Z"
             }
           ]
         }

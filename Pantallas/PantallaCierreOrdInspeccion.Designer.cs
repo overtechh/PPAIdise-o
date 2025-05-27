@@ -176,6 +176,18 @@
             ((System.ComponentModel.ISupportInitialize)dgvMotivos).EndInit();
             ResumeLayout(false);
             PerformLayout();
+            // 
+            // btnVerMails
+            // 
+            this.btnVerMails.Location = new System.Drawing.Point(400, 380); // Ajustá posición si es necesario
+            this.btnVerMails.Name = "btnVerMails";
+            this.btnVerMails.Size = new System.Drawing.Size(150, 30);
+            this.btnVerMails.TabIndex = 6;
+            this.btnVerMails.Text = "Ver mails enviados";
+            this.btnVerMails.UseVisualStyleBackColor = true;
+            this.btnVerMails.Click += new System.EventHandler(this.btnVerMails_Click);
+
+
         }
 
         #endregion
@@ -192,5 +204,7 @@
         private DataGridViewTextBoxColumn Motivo;
         private DataGridViewTextBoxColumn Comentario;
         private Button buttoncerrarOI;
+        private System.Windows.Forms.Button btnVerMails;
+
     }
 }

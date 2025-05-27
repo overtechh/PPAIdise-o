@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using PPAI_DSI_sismo.Entidades;
+using PPAI_DSI_sismo.Servicios;
+
 
 namespace PPAI_DSI_sismo.Gestores
 {
@@ -113,6 +115,20 @@ namespace PPAI_DSI_sismo.Gestores
             return DateTime.Now;
         }
 
+        public Estado buscarEstadoFueraDeServicio(List<Estado> estados)
+        {
+            foreach (var estado in estados)
+            {
+                if (estado.esAmbitoSismografo() && estado.esFueraDeServicio())
+                {
+                    return estado;
+                }
+            }
+
+            return null; // no se encontró un estado válido
+        }
+
+
         public Estado buscarEstadoCerrado(List<Estado> estados)
         {
             foreach (var estado in estados)
@@ -140,6 +156,24 @@ namespace PPAI_DSI_sismo.Gestores
 
             orden.cerrarOI(observacion, motivos, estadoCerrado, getFechaHoraActual());
         }
+
+        public void registrarSismografoFueraDeServicio(Sismografo sismografo, Estado estadoFueraServicio, List<MotivoFueraServicio> motivos, Empleado responsable)
+        {
+            sismografo.sismografoFueraDeServicio(estadoFueraServicio, motivos, getFechaHoraActual(), responsable);
+        }
+
+        public void enviarNotificacionPorMailEmpleados(
+    Sismografo sismografo,
+    DateTime fecha,
+    List<MotivoFueraServicio> motivos,
+    List<Empleado> empleados)
+        {
+            InterfazMail.notificarCierre(sismografo, fecha, motivos, empleados);
+        }
+
+
+
+
 
 
 

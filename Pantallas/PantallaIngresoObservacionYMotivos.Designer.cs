@@ -4,6 +4,9 @@
     {
         private System.ComponentModel.IContainer components = null;
 
+        // Todos los botones declarados correctamente acá
+        private System.Windows.Forms.Button btnVerMails;
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null)) components.Dispose();
@@ -14,120 +17,128 @@
 
         private void InitializeComponent()
         {
-            this.lblObservacion = new System.Windows.Forms.Label();
-            this.txtObservacion = new System.Windows.Forms.TextBox();
-            this.lblMotivo = new System.Windows.Forms.Label();
-            this.cmbMotivos = new System.Windows.Forms.ComboBox();
-            this.lblComentario = new System.Windows.Forms.Label();
-            this.txtComentario = new System.Windows.Forms.TextBox();
-            this.btnAgregarMotivo = new System.Windows.Forms.Button();
-            this.dgvMotivos = new System.Windows.Forms.DataGridView();
-            this.btncerrarOI = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMotivos)).BeginInit();
-            this.SuspendLayout();
+            lblObservacion = new Label();
+            txtObservacion = new TextBox();
+            lblMotivo = new Label();
+            cmbMotivos = new ComboBox();
+            lblComentario = new Label();
+            txtComentario = new TextBox();
+            btnAgregarMotivo = new Button();
+            dgvMotivos = new DataGridView();
+            btncerrarOI = new Button();
+            btnVerMails = new Button();
+            ((System.ComponentModel.ISupportInitialize)dgvMotivos).BeginInit();
+            SuspendLayout();
             // 
             // lblObservacion
             // 
-            this.lblObservacion.AutoSize = true;
-            this.lblObservacion.Location = new System.Drawing.Point(30, 20);
-            this.lblObservacion.Name = "lblObservacion";
-            this.lblObservacion.Size = new System.Drawing.Size(108, 13);
-            this.lblObservacion.TabIndex = 0;
-            this.lblObservacion.Text = "Observaciones:";
+            lblObservacion.AutoSize = true;
+            lblObservacion.Location = new Point(30, 20);
+            lblObservacion.Name = "lblObservacion";
+            lblObservacion.Size = new Size(87, 15);
+            lblObservacion.TabIndex = 0;
+            lblObservacion.Text = "Observaciones:";
             // 
             // txtObservacion
             // 
-            this.txtObservacion.Location = new System.Drawing.Point(30, 40);
-            this.txtObservacion.Multiline = true;
-            this.txtObservacion.Name = "txtObservacion";
-            this.txtObservacion.Size = new System.Drawing.Size(500, 60);
-            this.txtObservacion.TabIndex = 1;
+            txtObservacion.Location = new Point(30, 40);
+            txtObservacion.Multiline = true;
+            txtObservacion.Name = "txtObservacion";
+            txtObservacion.Size = new Size(500, 60);
+            txtObservacion.TabIndex = 1;
             // 
             // lblMotivo
             // 
-            this.lblMotivo.AutoSize = true;
-            this.lblMotivo.Location = new System.Drawing.Point(30, 120);
-            this.lblMotivo.Name = "lblMotivo";
-            this.lblMotivo.Size = new System.Drawing.Size(45, 13);
-            this.lblMotivo.TabIndex = 2;
-            this.lblMotivo.Text = "Motivo:";
+            lblMotivo.AutoSize = true;
+            lblMotivo.Location = new Point(30, 120);
+            lblMotivo.Name = "lblMotivo";
+            lblMotivo.Size = new Size(48, 15);
+            lblMotivo.TabIndex = 2;
+            lblMotivo.Text = "Motivo:";
             // 
             // cmbMotivos
             // 
-            this.cmbMotivos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbMotivos.FormattingEnabled = true;
-            this.cmbMotivos.Location = new System.Drawing.Point(90, 117);
-            this.cmbMotivos.Name = "cmbMotivos";
-            this.cmbMotivos.Size = new System.Drawing.Size(180, 21);
-            this.cmbMotivos.TabIndex = 3;
+            cmbMotivos.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbMotivos.Location = new Point(90, 117);
+            cmbMotivos.Name = "cmbMotivos";
+            cmbMotivos.Size = new Size(180, 23);
+            cmbMotivos.TabIndex = 3;
             // 
             // lblComentario
             // 
-            this.lblComentario.AutoSize = true;
-            this.lblComentario.Location = new System.Drawing.Point(290, 120);
-            this.lblComentario.Name = "lblComentario";
-            this.lblComentario.Size = new System.Drawing.Size(66, 13);
-            this.lblComentario.TabIndex = 4;
-            this.lblComentario.Text = "Comentario:";
+            lblComentario.AutoSize = true;
+            lblComentario.Location = new Point(290, 120);
+            lblComentario.Name = "lblComentario";
+            lblComentario.Size = new Size(73, 15);
+            lblComentario.TabIndex = 4;
+            lblComentario.Text = "Comentario:";
             // 
             // txtComentario
             // 
-            this.txtComentario.Location = new System.Drawing.Point(360, 117);
-            this.txtComentario.Name = "txtComentario";
-            this.txtComentario.Size = new System.Drawing.Size(170, 20);
-            this.txtComentario.TabIndex = 5;
+            txtComentario.Location = new Point(360, 117);
+            txtComentario.Name = "txtComentario";
+            txtComentario.Size = new Size(170, 23);
+            txtComentario.TabIndex = 5;
             // 
             // btnAgregarMotivo
             // 
-            this.btnAgregarMotivo.Location = new System.Drawing.Point(390, 150);
-            this.btnAgregarMotivo.Name = "btnAgregarMotivo";
-            this.btnAgregarMotivo.Size = new System.Drawing.Size(140, 25);
-            this.btnAgregarMotivo.TabIndex = 6;
-            this.btnAgregarMotivo.Text = "Agregar motivo";
-            this.btnAgregarMotivo.UseVisualStyleBackColor = true;
-            this.btnAgregarMotivo.Click += new System.EventHandler(this.btnAgregarMotivo_Click);
+            btnAgregarMotivo.Location = new Point(390, 150);
+            btnAgregarMotivo.Name = "btnAgregarMotivo";
+            btnAgregarMotivo.Size = new Size(140, 25);
+            btnAgregarMotivo.TabIndex = 6;
+            btnAgregarMotivo.Text = "Agregar motivo";
+            btnAgregarMotivo.Click += btnAgregarMotivo_Click;
             // 
             // dgvMotivos
             // 
-            this.dgvMotivos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMotivos.Location = new System.Drawing.Point(30, 190);
-            this.dgvMotivos.Name = "dgvMotivos";
-            this.dgvMotivos.Size = new System.Drawing.Size(500, 150);
-            this.dgvMotivos.TabIndex = 7;
+            dgvMotivos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvMotivos.Location = new Point(30, 190);
+            dgvMotivos.Name = "dgvMotivos";
+            dgvMotivos.Size = new Size(500, 150);
+            dgvMotivos.TabIndex = 7;
             // 
-            // btnCerrarOrden
+            // btncerrarOI
             // 
-            this.btncerrarOI.Location = new System.Drawing.Point(400, 360);
-            this.btncerrarOI.Name = "btnCerrarOrden";
-            this.btncerrarOI.Size = new System.Drawing.Size(130, 30);
-            this.btncerrarOI.TabIndex = 8;
-            this.btncerrarOI.Text = "Cerrar orden";
-            this.btncerrarOI.UseVisualStyleBackColor = true;
-            this.btncerrarOI.Click += new System.EventHandler(this.btnCerrarOrden_Click);
+            btncerrarOI.Location = new Point(400, 360);
+            btncerrarOI.Name = "btncerrarOI";
+            btncerrarOI.Size = new Size(130, 30);
+            btncerrarOI.TabIndex = 8;
+            btncerrarOI.Text = "Cerrar orden";
+            btncerrarOI.Click += btnCerrarOrden_Click;
+            // 
+            // btnVerMails
+            // 
+            btnVerMails.Location = new Point(30, 360);
+            btnVerMails.Name = "btnVerMails";
+            btnVerMails.Size = new Size(130, 30);
+            btnVerMails.TabIndex = 9;
+            btnVerMails.Text = "Ver mails enviados";
+            btnVerMails.Click += btnVerMails_Click;
             // 
             // PantallaIngresoObservacionYMotivos
             // 
-            this.ClientSize = new System.Drawing.Size(564, 411);
-            this.Controls.Add(this.btncerrarOI);
-            this.Controls.Add(this.dgvMotivos);
-            this.Controls.Add(this.btnAgregarMotivo);
-            this.Controls.Add(this.txtComentario);
-            this.Controls.Add(this.lblComentario);
-            this.Controls.Add(this.cmbMotivos);
-            this.Controls.Add(this.lblMotivo);
-            this.Controls.Add(this.txtObservacion);
-            this.Controls.Add(this.lblObservacion);
-            this.Name = "PantallaIngresoObservacionYMotivos";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Observación y motivos";
-            this.Load += new System.EventHandler(this.PantallaIngresoObservacionYMotivos_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMotivos)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            ClientSize = new Size(742, 506);
+            Controls.Add(lblObservacion);
+            Controls.Add(txtObservacion);
+            Controls.Add(lblMotivo);
+            Controls.Add(cmbMotivos);
+            Controls.Add(lblComentario);
+            Controls.Add(txtComentario);
+            Controls.Add(btnAgregarMotivo);
+            Controls.Add(dgvMotivos);
+            Controls.Add(btncerrarOI);
+            Controls.Add(btnVerMails);
+            Name = "PantallaIngresoObservacionYMotivos";
+            Text = "Observación y motivos";
+            Load += PantallaIngresoObservacionYMotivos_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvMotivos).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
+        // Resto de componentes
         private System.Windows.Forms.Label lblObservacion;
         private System.Windows.Forms.TextBox txtObservacion;
         private System.Windows.Forms.Label lblMotivo;

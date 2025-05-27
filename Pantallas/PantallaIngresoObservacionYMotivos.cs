@@ -1,9 +1,10 @@
-﻿using System;
+﻿using PPAI_DSI_sismo.Entidades;
+using PPAI_DSI_sismo.Gestores;
+using PPAI_DSI_sismo.Servicios;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Windows.Forms;
-using PPAI_DSI_sismo.Entidades;
-using PPAI_DSI_sismo.Gestores;
 
 namespace PPAI_DSI_sismo.Pantallas
 {
@@ -16,6 +17,8 @@ namespace PPAI_DSI_sismo.Pantallas
         {
             InitializeComponent();
             orden = ordenSeleccionada;
+            
+
         }
 
         private void PantallaIngresoObservacionYMotivos_Load(object sender, EventArgs e)
@@ -42,9 +45,36 @@ namespace PPAI_DSI_sismo.Pantallas
             cmbMotivos.SelectedIndex = -1;
             txtComentario.Clear();
         }
+        private List<Empleado> listaEmpleados = new List<Empleado>
+{
+    new Empleado
+    {
+        nombre = "Carlos",
+        apellido = "Gómez",
+        mail = "carlos.gomez@empresa.com",
+        rol = new Rol { nombre = "Responsable Reparacion" }
+    },
+    new Empleado
+    {
+        nombre = "Lucía",
+        apellido = "Pérez",
+        mail = "lucia.perez@empresa.com",
+        rol = new Rol { nombre = "Responsable Reparacion" }
+    },
+    new Empleado
+    {
+        nombre = "Sofía",
+        apellido = "Martínez",
+        mail = "sofia.martinez@empresa.com",
+        rol = new Rol { nombre = "Otro Rol" } // Este no debería recibir mail
+    }
+};
+
 
         private void btnCerrarOrden_Click(object sender, EventArgs e)
         {
+           
+
             if (string.IsNullOrWhiteSpace(txtObservacion.Text))
             {
                 MessageBox.Show("Debe ingresar una observación.");
@@ -76,6 +106,7 @@ namespace PPAI_DSI_sismo.Pantallas
         new Estado { ambito = "OrdenInspeccion", nombreEstado = "En Proceso" },
         new Estado { ambito = "OtraCosa", nombreEstado = "Activo" }
     };
+            MessageBox.Show($"Estado ANTES del cierre: {orden.estadoActual?.nombreEstado ?? "Sin estado"}");
 
             GestorCierreOrdInspeccion gestor = new GestorCierreOrdInspeccion();
             gestor.cerrarOI(orden, observacion, listaMotivos, estadosSistema);
@@ -83,16 +114,31 @@ namespace PPAI_DSI_sismo.Pantallas
             string resumen = $"Orden cerrada:\nNro: {orden.numeroOrden}\n" +
                              $"Fecha/hora cierre: {orden.fechaHoraCierre}\n" +
                              $"Observación: {orden.observaciones}\n" +
+                             $"Estado actual: {orden.estadoActual?.nombreEstado}\n" +
                              $"Motivos:\n";
+
 
             foreach (var m in listaMotivos)
             {
                 resumen += $"- {m.TipoMotivo.descripcion}: {m.comentario}\n";
             }
+            MessageBox.Show($"Estado REAL actual: {orden.estadoActual.nombreEstado}");
+
 
             MessageBox.Show(resumen, "Cierre exitoso");
-            this.Close();
+            InterfazMail.notificarCierre(orden.sismografo, orden.fechaHoraCierre, listaMotivos, listaEmpleados);
+
         }
+        private void btnVerMails_Click(object sender, EventArgs e)
+        {
+            string todosLosMails = string.Join("\n\n", InterfazMail.mailsEnviados);
+            MessageBox.Show(todosLosMails, "Mails enviados");
+        }
+
+
+
+
+
 
 
     }

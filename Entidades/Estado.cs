@@ -20,6 +20,18 @@ namespace PPAI_DSI_sismo.Entidades
         {
             return nombreEstado == "Cerrada";
         }
+        public bool esAmbitoSismografo()
+        {
+            return this.ambito == "Sismografo";
+        }
+
+        public bool esFueraDeServicio()
+        {
+            return this.nombreEstado == "Fuera de Servicio";
+        }
+
+
+
     }
 
 }
