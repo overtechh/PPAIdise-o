@@ -7,17 +7,17 @@ namespace PPAI_DSI_sismo.Pantallas
 {
     public partial class PantallaSeleccionOrdenInspeccion : Form
     {
-        private GestorCierreOrdInspeccion gestor = new GestorCierreOrdInspeccion();
+        private GestorCierreOrdInspeccion gestor;
 
-        public PantallaSeleccionOrdenInspeccion()
+        public PantallaSeleccionOrdenInspeccion(GestorCierreOrdInspeccion gestor)
         {
             InitializeComponent();
+            this.gestor = gestor;
         }
 
         private void PantallaSeleccionOrdenInspeccion_Load(object sender, EventArgs e)
         {
             gestor.iniciarCU();
-
             cmbOrdenes.DisplayMember = "DescripcionCompleta";
             cmbOrdenes.ValueMember = "numeroOrden";
             cmbOrdenes.DataSource = gestor.ordenarPorFechaFinalizacion();
@@ -32,10 +32,9 @@ namespace PPAI_DSI_sismo.Pantallas
             }
 
             var ordenSeleccionada = (OrdenDeInspeccion)cmbOrdenes.SelectedItem;
-
-            var pantallaObs = new PantallaIngresoObservacionYMotivos(ordenSeleccionada);
-            pantallaObs.ShowDialog();
+            gestor.tomarSelecOrdenInspeccion(ordenSeleccionada); // ← esta es la línea importante
             this.Close();
         }
     }
+
 }

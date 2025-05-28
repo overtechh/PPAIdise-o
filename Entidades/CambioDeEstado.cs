@@ -30,7 +30,6 @@ namespace PPAI_DSI_sismo.Entidades
         {
             foreach (var motivo in motivos)
             {
-                // Si necesitás crear una nueva instancia por cada motivo, podés hacer:
                 var nuevoMotivo = new MotivoFueraServicio
                 {
                     TipoMotivo = motivo.TipoMotivo,

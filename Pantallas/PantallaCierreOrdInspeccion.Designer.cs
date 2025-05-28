@@ -115,7 +115,7 @@
             button1.TabIndex = 7;
             button1.Text = "Agregar motivo";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            button1.Click += btnAgregarMotivo_Click;
             // 
             // dgvMotivos
             // 
@@ -147,13 +147,13 @@
             // 
             // buttoncerrarOI
             // 
-            buttoncerrarOI.Location = new Point(499, 469);
+            buttoncerrarOI.Location = new Point(499, 480);
             buttoncerrarOI.Name = "buttoncerrarOI";
             buttoncerrarOI.Size = new Size(108, 23);
             buttoncerrarOI.TabIndex = 9;
             buttoncerrarOI.Text = "Cerrar Orden";
             buttoncerrarOI.UseVisualStyleBackColor = true;
-            buttoncerrarOI.Click += buttonCerrarOrden_Click;
+            buttoncerrarOI.Click += btnCerrarOrden_Click;
             // 
             // PantallaCierreOrdInspeccion
             // 
@@ -177,15 +177,22 @@
             ResumeLayout(false);
             PerformLayout();
             // 
-            // btnVerMails
             // 
-            this.btnVerMails.Location = new System.Drawing.Point(400, 380); // Ajustá posición si es necesario
+            // btnVerMails
+            //
+            this.btnVerMails = new System.Windows.Forms.Button();
+            this.btnVerMails.Location = new System.Drawing.Point(20, 480); // Ajustá posición según tu layout
             this.btnVerMails.Name = "btnVerMails";
             this.btnVerMails.Size = new System.Drawing.Size(150, 30);
-            this.btnVerMails.TabIndex = 6;
+            this.btnVerMails.TabIndex = 8;
             this.btnVerMails.Text = "Ver mails enviados";
             this.btnVerMails.UseVisualStyleBackColor = true;
             this.btnVerMails.Click += new System.EventHandler(this.btnVerMails_Click);
+
+            // Agregar al formulario
+            this.Controls.Add(this.btnVerMails);
+
+
 
 
         }
@@ -205,6 +212,7 @@
         private DataGridViewTextBoxColumn Comentario;
         private Button buttoncerrarOI;
         private System.Windows.Forms.Button btnVerMails;
+
 
     }
 }

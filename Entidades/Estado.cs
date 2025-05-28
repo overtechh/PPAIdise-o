@@ -13,13 +13,14 @@ namespace PPAI_DSI_sismo.Entidades
 
         public bool esAmbitoOI()
         {
-            return ambito == "OrdenInspeccion";
+            return this.ambito.Trim().Equals("OrdenInspeccion", StringComparison.OrdinalIgnoreCase);
         }
 
         public bool esCerrada()
         {
-            return nombreEstado == "Cerrada";
+            return this.nombreEstado.Trim().Equals("Cerrada", StringComparison.OrdinalIgnoreCase);
         }
+
         public bool esAmbitoSismografo()
         {
             return this.ambito == "Sismografo";
