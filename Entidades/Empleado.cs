@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PPAI_DSI_sismo.Entidades
 {
@@ -16,18 +14,52 @@ namespace PPAI_DSI_sismo.Entidades
 
         public bool esRReparacion()
         {
-            return rol.esRReparacion();
+            return rol != null && rol.esRReparacion();
         }
 
         public string getMail()
         {
             return mail;
         }
-        public bool esResponsableReparacion()
+
+        // Lista estática de empleados simulada como fuente de datos
+        public static List<Empleado> obtenerTodos()
         {
-            return rol != null && rol.nombre == "Responsable Reparacion";
+            return new List<Empleado>
+            {
+                new Empleado
+                {
+                    nombre = "Carlos",
+                    apellido = "Gómez",
+                    mail = "carlos.gomez@empresa.com",
+                    telefono = 123456789,
+                    rol = new Rol { nombre = "Responsable Reparacion" }
+                },
+                new Empleado
+                {
+                    nombre = "Lucía",
+                    apellido = "Pérez",
+                    mail = "lucia.perez@empresa.com",
+                    telefono = 987654321,
+                    rol = new Rol { nombre = "Responsable Reparacion" }
+                },
+                new Empleado
+                {
+                    nombre = "Sofía",
+                    apellido = "Martínez",
+                    mail = "sofia.martinez@empresa.com",
+                    telefono = 555555555,
+                    rol = new Rol { nombre = "Otro Rol" }
+                }
+            };
         }
 
+        // Utilizado por el gestor para filtrar los de reparación
+        public static List<Empleado> obtenerResponsablesReparacion()
+        {
+            return obtenerTodos().Where(e => e.esRReparacion()).ToList();
+        }
     }
 }
+
 

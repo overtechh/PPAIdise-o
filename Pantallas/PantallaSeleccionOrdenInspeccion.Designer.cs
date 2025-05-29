@@ -17,6 +17,8 @@
             this.cmbOrdenes = new System.Windows.Forms.ComboBox();
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtObservacion = new System.Windows.Forms.TextBox();
+            this.lblObservacion = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cmbOrdenes
@@ -30,10 +32,10 @@
             // 
             // btnSiguiente
             // 
-            this.btnSiguiente.Location = new System.Drawing.Point(330, 80);
+            this.btnSiguiente.Location = new System.Drawing.Point(330, 130);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(100, 30);
-            this.btnSiguiente.TabIndex = 1;
+            this.btnSiguiente.TabIndex = 2;
             this.btnSiguiente.Text = "Siguiente →";
             this.btnSiguiente.UseVisualStyleBackColor = true;
             this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
@@ -44,12 +46,30 @@
             this.label1.Location = new System.Drawing.Point(30, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(149, 13);
-            this.label1.TabIndex = 2;
+            this.label1.TabIndex = 3;
             this.label1.Text = "Seleccionar orden a inspeccionar:";
+            // 
+            // lblObservacion
+            // 
+            this.lblObservacion.AutoSize = true;
+            this.lblObservacion.Location = new System.Drawing.Point(30, 75);
+            this.lblObservacion.Name = "lblObservacion";
+            this.lblObservacion.Size = new System.Drawing.Size(70, 13);
+            this.lblObservacion.TabIndex = 4;
+            this.lblObservacion.Text = "Observación:";
+            // 
+            // txtObservacion
+            // 
+            this.txtObservacion.Location = new System.Drawing.Point(30, 95);
+            this.txtObservacion.Name = "txtObservacion";
+            this.txtObservacion.Size = new System.Drawing.Size(400, 20);
+            this.txtObservacion.TabIndex = 1;
             // 
             // PantallaSeleccionOrdenInspeccion
             // 
-            this.ClientSize = new System.Drawing.Size(460, 130);
+            this.ClientSize = new System.Drawing.Size(460, 180);
+            this.Controls.Add(this.lblObservacion);
+            this.Controls.Add(this.txtObservacion);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.cmbOrdenes);
@@ -61,11 +81,15 @@
             this.PerformLayout();
         }
 
+
         #endregion
 
         private System.Windows.Forms.ComboBox cmbOrdenes;
         private System.Windows.Forms.Button btnSiguiente;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtObservacion;
+        private System.Windows.Forms.Label lblObservacion;
+
     }
 }
 

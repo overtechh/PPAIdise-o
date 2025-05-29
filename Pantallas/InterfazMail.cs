@@ -21,8 +21,8 @@ namespace PPAI_DSI_sismo.Pantallas
                                     $"Motivos: {string.Join(", ", motivos.Select(m => m.TipoMotivo.descripcion + ": " + m.comentario))}";
 
                     string mail = $"Para: {e.mail}\nAsunto: Sismógrafo fuera de servicio\n{cuerpo}";
-                    mailsEnviados.Add(mail); // Asegurate de que esto esté
-                    MessageBox.Show("Se agregó mail: " + mail); // Verificás si se ejecuta
+                    mailsEnviados.Add(mail); 
+                    MessageBox.Show("Se agregó mail: " + mail);
 
                 }
             }

@@ -21,12 +21,6 @@ namespace PPAI_DSI_sismo.Pantallas
         // === LOAD INICIAL ===
         private void PantallaCierreOrdInspeccion_Load(object sender, EventArgs e)
         {
-            gestor.iniciarCU();
-
-            cmbOrdenes.DisplayMember = "DescripcionCompleta";
-            cmbOrdenes.ValueMember = "numeroOrden";
-            cmbOrdenes.DataSource = gestor.ordenarPorFechaFinalizacion();
-
             cmbMotivos.DisplayMember = "descripcion";
             cmbMotivos.DataSource = gestor.obtenerMotivosFueraDeServicio();
 
@@ -59,38 +53,17 @@ namespace PPAI_DSI_sismo.Pantallas
 
         private void btnCerrarOrden_Click(object sender, EventArgs e)
         {
-            if (cmbOrdenes.SelectedItem == null)
-            {
-                MessageBox.Show("Seleccione una orden a cerrar.");
-                return;
-            }
-
-            var ordenSeleccionada = (OrdenDeInspeccion)cmbOrdenes.SelectedItem;
-            gestor.tomarSelecOrdenInspeccion(ordenSeleccionada);
-
-            if (string.IsNullOrWhiteSpace(txtObservacion.Text))
-            {
-                MessageBox.Show("Debe ingresar una observación.");
-                return;
-            }
             if (gestor.obtenerMotivosSeleccionados().Count == 0)
             {
                 MessageBox.Show("Debe ingresar al menos un motivo con su comentario.");
                 return;
             }
 
-
-            gestor.obtenerObservacionDesdePantalla = () => txtObservacion.Text.Trim();
-            gestor.solicitarIngresoObservacion();
-            gestor.tomarObservacion(txtObservacion.Text.Trim());
             gestor.solicitarConfirmacionCierreOrden();
 
-            // Limpiar pantalla y cerrar
-            txtObservacion.Clear();
+            // Limpiar y cerrar
             dtMotivos.Rows.Clear();
             gestor.obtenerMotivosSeleccionados().Clear();
-
-            actualizarComboOrdenes();
             this.Close();
         }
 
@@ -98,17 +71,9 @@ namespace PPAI_DSI_sismo.Pantallas
         {
             gestor.mostrarMailsEnviados();
         }
-
-        // === HELPER ===
-        private void actualizarComboOrdenes()
-        {
-            var ordenesActualizadas = gestor.ordenarPorFechaFinalizacion();
-            cmbOrdenes.DataSource = null;
-            cmbOrdenes.DataSource = ordenesActualizadas;
-            cmbOrdenes.DisplayMember = "DescripcionCompleta";
-            cmbOrdenes.ValueMember = "numeroOrden";
-        }
     }
 }
+
+
 
 

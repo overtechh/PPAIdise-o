@@ -11,12 +11,6 @@ namespace PPAI_DSI_sismo.Gestores
     {
         // === SESIÓN ===
         private Sesion sesionActual = new Sesion();
-        private List<Empleado> empleados = new List<Empleado>
-        {
-            new Empleado { nombre = "Carlos", apellido = "Gómez", mail = "carlos.gomez@empresa.com", rol = new Rol { nombre = "Responsable Reparacion" } },
-            new Empleado { nombre = "Lucía", apellido = "Pérez", mail = "lucia.perez@empresa.com", rol = new Rol { nombre = "Responsable Reparacion" } },
-            new Empleado { nombre = "Sofía", apellido = "Martínez", mail = "sofia.martinez@empresa.com", rol = new Rol { nombre = "Otro Rol" } }
-        };
 
         public void iniciarCU()
         {
@@ -65,7 +59,7 @@ namespace PPAI_DSI_sismo.Gestores
             return buscarOrdInspeccionRI()
                 .Where(o => o.esDeEmpleado(emp) && o.esRealizada())
                 .OrderByDescending(o => o.fechaHoraFinalizacion)
-                .ToList();
+                .ToList();  
         }
 
         public void tomarSelecOrdenInspeccion(OrdenDeInspeccion orden)
@@ -123,7 +117,12 @@ namespace PPAI_DSI_sismo.Gestores
                 tomarObservacion(obtenerObservacionDesdePantalla());
         }
 
-        public void tomarObservacion(string obs) => setObservacion(obs);
+        public void tomarObservacion(string obs)
+        {
+            setObservacion(obs);
+            MessageBox.Show("OBSERVACIÓN RECIBIDA EN GESTOR: " + obs); // 🔍 Debug rápido
+        }
+
 
         // === CIERRE ===
         private readonly List<Estado> estadosSistema = new()
@@ -140,23 +139,27 @@ namespace PPAI_DSI_sismo.Gestores
 
         public void tomarConfirmacionCierreOrden()
         {
-            cerrarOI(ordenSeleccionada, observacion, motivosSeleccionados, estadosSistema);
+
+            cerrarOI(ordenSeleccionada, this.observacion, motivosSeleccionados, estadosSistema);
+            MessageBox.Show("Observación guardada: " + ordenSeleccionada.observaciones);
 
             var pantallaCCRS = new PantallaCCRS();
             pantallaCCRS.publicar();
 
             yaMostroPantallaMotivos = false;
 
+            var empleadosResponsables = Empleado.obtenerResponsablesReparacion(); // ✅
             enviarNotificacionPorMailEmpleados(
                 ordenSeleccionada.sismografo,
                 getFechaHoraActual(),
                 motivosSeleccionados,
-                empleados
+                empleadosResponsables
             );
 
-            mostrarMailsEnviados(); // Agregamos esto para que se muestren directamente
-            finCU(); // Mostramos mensaje de fin
+            mostrarMailsEnviados();
+            finCU();
         }
+
 
 
         public void cerrarOI(OrdenDeInspeccion orden, string observacion, List<MotivoFueraServicio> motivos, List<Estado> estados)
@@ -210,6 +213,7 @@ namespace PPAI_DSI_sismo.Gestores
         }
     }
 }
+
 
 
 

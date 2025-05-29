@@ -18,6 +18,7 @@ namespace PPAI_DSI_sismo.Pantallas
         private void PantallaSeleccionOrdenInspeccion_Load(object sender, EventArgs e)
         {
             gestor.iniciarCU();
+
             cmbOrdenes.DisplayMember = "DescripcionCompleta";
             cmbOrdenes.ValueMember = "numeroOrden";
             cmbOrdenes.DataSource = gestor.ordenarPorFechaFinalizacion();
@@ -31,10 +32,20 @@ namespace PPAI_DSI_sismo.Pantallas
                 return;
             }
 
+            if (string.IsNullOrWhiteSpace(txtObservacion.Text))
+            {
+                MessageBox.Show("Debe ingresar una observación.");
+                return;
+            }
+
             var ordenSeleccionada = (OrdenDeInspeccion)cmbOrdenes.SelectedItem;
-            gestor.tomarSelecOrdenInspeccion(ordenSeleccionada); // ← esta es la línea importante
+
+            gestor.tomarObservacion(txtObservacion.Text.Trim()); // 👈 PRIMERO guardar la observación
+            gestor.tomarSelecOrdenInspeccion(ordenSeleccionada); // 👈 DESPUÉS abrir la nueva pantalla
             this.Close();
+
+
         }
     }
-
 }
+
